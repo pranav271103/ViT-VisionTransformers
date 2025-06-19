@@ -1,13 +1,10 @@
----
-license: apache-2.0
----
 ## Vision Transformer (ViT) Models for Digital Forensics
 
 This repository provides Vision Transformer (ViT) models fine-tuned to detect manipulated (fake) versus authentic (real) image frames extracted from the FaceForensics++ dataset. The models were trained using Intel® ARC GPU (XPU-enabled) and optimized for binary image classification in digital forensics workflows.
 
 ---
 
-## 🧠 Models Trained
+## Models Trained
 
 | Model Name                 | Pretrained On         | Patch Size | Parameters |
 |---------------------------|-----------------------|------------|------------|
@@ -19,7 +16,7 @@ This repository provides Vision Transformer (ViT) models fine-tuned to detect ma
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 - **Name**: DeepFake Detection (DFD)  
 - **Source**: [Kaggle DFD Dataset] 
@@ -31,7 +28,7 @@ This repository provides Vision Transformer (ViT) models fine-tuned to detect ma
 
 ---
 
-## ⚙️ Hardware & Environment
+## Hardware & Environment
 
 - **Accelerator**: Intel® ARC GPU (XPU via Intel Extension for PyTorch)
 - **Frameworks**:
@@ -43,20 +40,20 @@ This repository provides Vision Transformer (ViT) models fine-tuned to detect ma
 
 ---
 
-## ✅ Use Case: Deepfake Frame Detection
+## Use Case: Deepfake Frame Detection
 
 These models are designed to identify manipulated media content at the frame level. Use cases include:
 
-- 🔍 Video forensics
-- 🎞️ Deepfake screening and flagging pipelines
-- 🧪 Data validation for machine learning datasets
-- 📡 Real-time frame-level media authentication
+-  Video forensics
+-  Deepfake screening and flagging pipelines
+-  Data validation for machine learning datasets
+-  Real-time frame-level media authentication
 
 They are well-suited for deployment in digital forensics, content moderation, and research scenarios where image authenticity is critical.
 
 ---
 
-## 📊 Results 
+##  Results 
 
 | Model | Train Accuracy | Validation Accuracy |
 |-------|----------------|---------------------|
@@ -73,7 +70,7 @@ This model achieved the highest validation accuracy of 91.22% with strong traini
 
 ---
 
-## 📄 License
+##  License
 
 This model is licensed under the [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license).  
 It allows for responsible research and commercial use, but **strictly prohibits**:
