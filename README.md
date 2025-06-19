@@ -72,12 +72,8 @@ This model achieved the highest validation accuracy of 91.22% with strong traini
 
 ##  License
 
-This model is licensed under the [CreativeML OpenRAIL-M License](https://huggingface.co/spaces/CompVis/stable-diffusion-license).  
+This model is licensed under the [Apache 2.0 License](https://github.com/pranav271103/ViT-VisionTransformers/blob/main/LICENSE).  
 It allows for responsible research and commercial use, but **strictly prohibits**:
-
-- Harassment, surveillance, or profiling.
-- Generating misleading or harmful content (e.g., deepfakes for impersonation).
-- Use in political campaigns or autonomous weapons.
 
 Please read the license carefully before using the model.
  
